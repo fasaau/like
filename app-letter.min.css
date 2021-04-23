@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url("a72e787c013334d67de27caa9ac423eb.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("525074686dfb8aa36b1b92e29de467ac.woff") format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("086992916aee0a3ada4155aaea6dad3f.woff") format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("c062d93bc67be53343351eccfce12532.woff") format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("963eb32907744d9a0d6b98127162808f.woff") format('woff');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Klementina';
+  src: url("") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circe';
+  src: url("") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circe';
+  src: url("") format('woff');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circe';
+  src: url("") format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'EZCARDICONS';
+	src: url("") format('woff');
+	font-weight: normal;
+	font-style: normal;
+}/*
+//green theme
+$cart-bg:                          #08c715;
+$btn-default-bg:                   #08c715;
+$btn-default-bg-top:               lighten($btn-default-bg, 10%);
+$btn-default-bg-bottom:            darken($btn-default-bg, 8%);
+$btn-default-box-shadow-bottom:    darken($btn-default-bg, 20%);
+$btn-default-border-color:         rgba(0,0,0,0.075);
+$btn-default-color:                #333;
+
+$message-panel-base-color:         $base-color;
+$message-panel-btnlite-color:      #FFF;
+$message-panel-listitem-color:      #ababab;
+$message-panel-background:         #cdcdcd;
+
+$message-panel-carousel-active-bg: transparent;
+
+$btn-lite-bg:                      rgba(121,121,121,0.3);
+/**/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+#ezc-letter {
+  height: 83px;
+  position: relative;
+  padding: 15px;
+  display: block;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif; }
+  #ezc-letter #ezc-bg {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    background: #cfcfcf;
+    width: 114px;
+    height: 83px;
+    box-shadow: 1px 1px 17px 4px rgba(0, 0, 0, 0.2), 0 13px 17px -8px rgba(0, 0, 0, 0.2); }
+  #ezc-letter #ezc-fp {
+    position: absolute;
+    top: 18px;
+    left: 15px;
+    width: 123px;
+    height: 77px;
+    background: #000;
+    background-size: cover;
+    border-radius: 5px;
+    -o-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2), 0 4px 4px -2px rgba(0, 0, 0, 0.2); }
+  #ezc-letter #ezc-cv {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    background: transparent url("060c55efa7eb37baed5189a9824590df.png") left center;
+    background-size: cover;
+    width: 93px;
+    height: 31px;
+    color: #000;
+    line-height: 1.5;
+    font-style: italic;
+    font-size: 11px;
+    text-align: center;
+    padding: 26px 10px; }

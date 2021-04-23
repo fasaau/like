@@ -1,0 +1,212 @@
+/*
+//green theme
+$cart-bg:                          #08c715;
+$btn-default-bg:                   #08c715;
+$btn-default-bg-top:               lighten($btn-default-bg, 10%);
+$btn-default-bg-bottom:            darken($btn-default-bg, 8%);
+$btn-default-box-shadow-bottom:    darken($btn-default-bg, 20%);
+$btn-default-border-color:         rgba(0,0,0,0.075);
+$btn-default-color:                #333;
+
+$message-panel-base-color:         $base-color;
+$message-panel-btnlite-color:      #FFF;
+$message-panel-listitem-color:      #ababab;
+$message-panel-background:         #cdcdcd;
+
+$message-panel-carousel-active-bg: transparent;
+
+$btn-lite-bg:                      rgba(121,121,121,0.3);
+/**/
+#ezc-widget {
+  z-index: 10000;
+  width: 155px;
+  height: 113px;
+  position: fixed;
+  right: -95px;
+  top: 50%;
+  border: 0;
+  -webkit-transition: width 0.2s ease-out, right 0.2s ease-out;
+  -moz-transition: width 0.2s ease-out, right 0.2s ease-out;
+  -o-transition: width 0.2s ease-out, right 0.2s ease-out;
+  transition: width 0.2s ease-out, right 0.2s ease-out; }
+  #ezc-widget.ezc-widget-hover {
+    width: 291px;
+    right: -15px; }
+  #ezc-widget iframe {
+    border: 0;
+    width: 100%;
+    height: 113px;
+    overflow: hidden; }
+  #ezc-widget #ezc-widget-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 291px;
+    height: 113px;
+    cursor: pointer; }
+
+#floatingCirclesG {
+  position: relative;
+  width: 122px;
+  height: 122px;
+  margin: auto;
+  transform: scale(0.6);
+  -o-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6); }
+
+.f_circleG {
+  position: absolute;
+  background-color: white;
+  height: 22px;
+  width: 22px;
+  border-radius: 11px;
+  -o-border-radius: 11px;
+  -ms-border-radius: 11px;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  animation-name: f_fadeG;
+  -o-animation-name: f_fadeG;
+  -ms-animation-name: f_fadeG;
+  -webkit-animation-name: f_fadeG;
+  -moz-animation-name: f_fadeG;
+  animation-duration: 0.932s;
+  -o-animation-duration: 0.932s;
+  -ms-animation-duration: 0.932s;
+  -webkit-animation-duration: 0.932s;
+  -moz-animation-duration: 0.932s;
+  animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-direction: normal;
+  -o-animation-direction: normal;
+  -ms-animation-direction: normal;
+  -webkit-animation-direction: normal;
+  -moz-animation-direction: normal; }
+
+#frotateG_01 {
+  left: 0;
+  top: 49px;
+  animation-delay: 0.3495s;
+  -o-animation-delay: 0.3495s;
+  -ms-animation-delay: 0.3495s;
+  -webkit-animation-delay: 0.3495s;
+  -moz-animation-delay: 0.3495s; }
+
+#frotateG_02 {
+  left: 14px;
+  top: 14px;
+  animation-delay: 0.466s;
+  -o-animation-delay: 0.466s;
+  -ms-animation-delay: 0.466s;
+  -webkit-animation-delay: 0.466s;
+  -moz-animation-delay: 0.466s; }
+
+#frotateG_03 {
+  left: 49px;
+  top: 0;
+  animation-delay: 0.5825s;
+  -o-animation-delay: 0.5825s;
+  -ms-animation-delay: 0.5825s;
+  -webkit-animation-delay: 0.5825s;
+  -moz-animation-delay: 0.5825s; }
+
+#frotateG_04 {
+  right: 14px;
+  top: 14px;
+  animation-delay: 0.699s;
+  -o-animation-delay: 0.699s;
+  -ms-animation-delay: 0.699s;
+  -webkit-animation-delay: 0.699s;
+  -moz-animation-delay: 0.699s; }
+
+#frotateG_05 {
+  right: 0;
+  top: 49px;
+  animation-delay: 0.8155s;
+  -o-animation-delay: 0.8155s;
+  -ms-animation-delay: 0.8155s;
+  -webkit-animation-delay: 0.8155s;
+  -moz-animation-delay: 0.8155s; }
+
+#frotateG_06 {
+  right: 14px;
+  bottom: 14px;
+  animation-delay: 0.932s;
+  -o-animation-delay: 0.932s;
+  -ms-animation-delay: 0.932s;
+  -webkit-animation-delay: 0.932s;
+  -moz-animation-delay: 0.932s; }
+
+#frotateG_07 {
+  left: 49px;
+  bottom: 0;
+  animation-delay: 1.0485s;
+  -o-animation-delay: 1.0485s;
+  -ms-animation-delay: 1.0485s;
+  -webkit-animation-delay: 1.0485s;
+  -moz-animation-delay: 1.0485s; }
+
+#frotateG_08 {
+  left: 14px;
+  bottom: 14px;
+  animation-delay: 1.165s;
+  -o-animation-delay: 1.165s;
+  -ms-animation-delay: 1.165s;
+  -webkit-animation-delay: 1.165s;
+  -moz-animation-delay: 1.165s; }
+
+@keyframes f_fadeG {
+  0% {
+    background-color: black; }
+  100% {
+    background-color: white; } }
+
+@-o-keyframes f_fadeG {
+  0% {
+    background-color: black; }
+  100% {
+    background-color: white; } }
+
+@-ms-keyframes f_fadeG {
+  0% {
+    background-color: black; }
+  100% {
+    background-color: white; } }
+
+@-webkit-keyframes f_fadeG {
+  0% {
+    background-color: black; }
+  100% {
+    background-color: white; } }
+
+@-moz-keyframes f_fadeG {
+  0% {
+    background-color: black; }
+  100% {
+    background-color: white; } }
+
+.ezc-cnt {
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10001;
+  text-align: left;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0; }
+  .ezc-cnt .ezc-loader {
+    z-index: 10002;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0; }
+  .ezc-cnt iframe {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 10003;
+    border: 0; }
